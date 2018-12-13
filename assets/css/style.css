@@ -1,13 +1,50 @@
 .header {
     height: 100px;
+    width: 100%;
     background-color: black;
     color: #fff;
     text-align: center;
     padding: 20px:
 }
 
+.body-background{
+    background: #232b2b;
+}
 .container {
     max-width: 960px;
     margin: 0 auto;
     display: flex;
+}
+
+.left-block {
+    width: 480px;
+    height: 480px;
+    margin-top: 40px;
+    background: #740001;
+    
+    
+}
+
+.right-block {
+    width: 480px;
+    height: 480px;
+    margin-top: 40px;
+    background: #0a4e08;
+
+}
+
+.question-area {
+    width: 80%;
+    height: 400px;
+    background: #d3a625;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.answer-area {
+    width: 80%;
+    height: 400px;
+    background: #b1b1b1;
+    margin: 0 auto;
+    margin-top: 40px;
 }
