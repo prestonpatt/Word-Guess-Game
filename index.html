@@ -11,7 +11,7 @@
 </head>
 <header class="header">
     <img src="assets/images/logo.png" alt="Harry Potter Game Logo" height="100" width="400">
-    </header>
+</header>
 
 
 <body class="body-background">
@@ -19,28 +19,33 @@
         <div class="left-block">
             <h1>How to Play</h1>
             <div class="question-area">
-                <p>BEFORE YOU TYPE A LETTER!!!</p>
-                <p>The object of the game is to guess the word represented by the underscores to the right in a hangman style game.</p> 
-                <p>You get 1 guess per character in the unknown Harry Potter related word +3</p>
-                <p>Using your keyboard type the letters you wish to use as a guess. The first letter you type will start the game.</p>
-                <p>May the odds be ever in your favor.</p>
-
+                <div class="text-area">
+                    <p>BEFORE YOU TYPE A LETTER!!!</p>
+                    <p>The object of the game is to guess the word represented by the underscores to the right in a
+                        hangman
+                        style game.</p>
+                    <p>You get 1 guess per character in the unknown Harry Potter related word +3</p>
+                    <p>Using your keyboard type the letters you wish to use as a guess. The first letter you type will
+                        start the game.</p>
+                    <p>May the odds be ever in your favor.</p>
+                </div>
+                <div class ="answer-title">
+                    <h1></h1>
+                </div>
             </div>
         </div>
         <div class="right-block">
             <h1>Can you guess the word?</h1>
             <div class="answer-area">
                 <h3>Guess me</h3>
-                <h3 id = "main-word">-----</h3>
+                <h3 id="main-word">-----</h3>
                 <h3>Letters used</h3>
-                <h3></h3>
+                <h3 id = "letters-used"></h3>
+                <h3 id = "lives"></h3>
                 <br>
                 <br>
-                <h3>Wins</h3>
-                <h3>Tallied wins go here</h3>
-                <h3>Losses</h3>
-                <h3>Tallied losses go here</h3>
-
+                <h3 id="wins"></h3>
+                <h3 id="losses"></h3>
             </div>
         </div>
 
